@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2825B7C11E675787007A868E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825B7C01E675787007A868E /* AppDelegate.swift */; };
-		2825B7C31E675787007A868E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825B7C21E675787007A868E /* ViewController.swift */; };
 		2825B7C61E675787007A868E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2825B7C41E675787007A868E /* Main.storyboard */; };
 		2825B7C81E675787007A868E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2825B7C71E675787007A868E /* Assets.xcassets */; };
 		2825B7CB1E675787007A868E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2825B7C91E675787007A868E /* LaunchScreen.storyboard */; };
+		2825B7D31E675B16007A868E /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825B7D21E675B16007A868E /* Calculator.swift */; };
+		2825B7D51E675CD6007A868E /* ComplectationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2825B7D41E675CD6007A868E /* ComplectationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2825B7BD1E675787007A868E /* CarPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2825B7C01E675787007A868E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2825B7C21E675787007A868E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2825B7C51E675787007A868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2825B7C71E675787007A868E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2825B7CA1E675787007A868E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2825B7CC1E675787007A868E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2825B7D21E675B16007A868E /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		2825B7D41E675CD6007A868E /* ComplectationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplectationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +56,10 @@
 		2825B7BF1E675787007A868E /* CarPrice */ = {
 			isa = PBXGroup;
 			children = (
+				2825B7D41E675CD6007A868E /* ComplectationViewController.swift */,
 				2825B7C01E675787007A868E /* AppDelegate.swift */,
-				2825B7C21E675787007A868E /* ViewController.swift */,
 				2825B7C41E675787007A868E /* Main.storyboard */,
+				2825B7D21E675B16007A868E /* Calculator.swift */,
 				2825B7C71E675787007A868E /* Assets.xcassets */,
 				2825B7C91E675787007A868E /* LaunchScreen.storyboard */,
 				2825B7CC1E675787007A868E /* Info.plist */,
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2825B7C31E675787007A868E /* ViewController.swift in Sources */,
 				2825B7C11E675787007A868E /* AppDelegate.swift in Sources */,
+				2825B7D51E675CD6007A868E /* ComplectationViewController.swift in Sources */,
+				2825B7D31E675B16007A868E /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
